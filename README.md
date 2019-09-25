@@ -13,3 +13,6 @@ collection of articles about maximizing jupyter notebook
 ```conda install -c conda-forge jupyter_contrib_nbextensions```
 4. Inside the Anaconda Prompt run
 ```jupyter contrib nbextension install --user```
+5. Inside Jupyter tree
+  - Select the new tab Nbextensions 
+  - Check Table of Contents (2)
