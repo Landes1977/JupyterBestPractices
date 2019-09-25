@@ -1,12 +1,15 @@
 # JupyterBestPractices
 collection of articles about maximizing jupyter notebook
 
-# Configuring NBExtensions with Windows Anaconda Distribution
+## Configuring NBExtensions with Windows Anaconda Distribution
 
-1. Step up full permission on Anaconda DataApp directory
-2. Run 
+1. Anaconda ProgramData directory
+  - Under Security select Users
+  - Click Edit
+  - Select Full control
+2. Inside the Anaconda Prompt run 
+```conda install -c conda-forge jupyter_nbextensions_configurator```
+3. Inside the Anaconda Prompt run 
 ```conda install -c conda-forge jupyter_contrib_nbextensions```
-3. Run 
-```conda install -c conda-forgejupyter_contrib_nbextensions```
-4. Run
+4. Inside the Anaconda Prompt run
 ```jupyter contrib nbextension install --user```
